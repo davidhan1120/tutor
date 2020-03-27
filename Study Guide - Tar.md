@@ -18,7 +18,7 @@ Creating tar archives is part of your daily job functions. Today, you have decid
     ```bash
     $ tar -tf TarDocs.tar
     ```
-    - `t` - tree -> This creates a tree like structure that displays all the contents within the zipped file. Lists all the directories and files.
+    - -`t` - tree -> This creates a tree like structure that displays all the contents within the zipped file. Lists all the directories and files.
     - `f` - file -> This refers to the file that we want to look at with tar.
 
     As you can see we run into a problem. It just lists the files for us but we need a way to search for the file that we want to extract. We do not want to extract the entire archive and only want specific files and for this we will use the `grep`. We will pipe `|` this.
